@@ -2,11 +2,11 @@
 
 Welcome to my Data Analytics Portfolio!
 
-I am an **MBA graduate specializing in HR & Data Analytics**, with hands-on experience in transforming raw data into meaningful business insights through data preparation, statistical analysis, database querying, and business intelligence reporting.
+I am an **MBA graduate specializing in HR & Data Analytics**, with a growing portfolio of projects focused on transforming data into meaningful business insights through data preparation, statistical analysis, database querying, data visualization, and business intelligence reporting.
 
-This repository showcases a collection of end-to-end analytics and applied research projects developed using industry-standard tools including **Excel, SQL, Power BI, Tableau, Looker Studio, and SPSS**.
+This repository showcases analytics and applied research projects developed using tools including **Microsoft Excel, SQL, Power BI, Tableau, Looker Studio, and SPSS**.
 
-The portfolio demonstrates my ability to work across the complete analytics lifecycle—from data cleaning and exploratory analysis to statistical modeling, dashboard development, and business recommendations.
+The projects demonstrate my learning and practical application across different stages of the analytics lifecycle—from data preparation and exploratory analysis to statistical analysis, dashboard development, visualization, and business interpretation.
 
 ---
 
@@ -48,22 +48,22 @@ Data-Analytics-Portfolio/
 
 ## Data Analysis
 
-- Microsoft Excel
-- PostgreSQL (SQL)
-- SPSS Statistics
+* Microsoft Excel
+* SQL / PostgreSQL
+* SPSS Statistics
 
-## Business Intelligence
+## Business Intelligence & Visualization
 
-- Power BI
-- Tableau Desktop
-- Google Looker Studio
+* Power BI
+* Tableau
+* Google Looker Studio
 
 ## Supporting Tools
 
-- Git
-- GitHub
-- GitHub Desktop
-- Visual Studio Code
+* Git
+* GitHub
+* GitHub Desktop
+* Visual Studio Code
 
 ---
 
@@ -71,37 +71,33 @@ Data-Analytics-Portfolio/
 
 ---
 
-# Project 1 – End-to-End HR Analytics Pipeline
+# Project 1 – HR Analytics Dashboard & BI Project
 
 **Tools Used**
 
-- Microsoft Excel
-- PostgreSQL
-- Power BI
-- Tableau Desktop
+* Microsoft Excel
+* SQL / PostgreSQL
+* Power BI
+* Tableau
 
 ### Project Summary
 
-This project demonstrates a complete business analytics workflow using a shared HR dataset.
+This project explores an HR dataset to analyze employee demographics, attrition, job satisfaction, and workforce characteristics using multiple analytics and business intelligence tools.
 
-The project begins with data preparation in Excel, continues through SQL-based data querying and validation, and concludes with interactive dashboards built in both Power BI and Tableau.
+The project includes an Excel-based analysis and dashboard, an interactive Power BI report, and a Tableau dashboard. SQL queries and dashboard validation materials were also studied as part of the tutorial-based workflow used to develop and understand the project.
 
 ### Workflow
 
-```
-Raw HR Dataset
+```text
+HR Dataset
 
 ↓
 
-Data Cleaning (Excel)
+Data Preparation & Analysis
 
 ↓
 
-SQL Database Design
-
-↓
-
-SQL Queries
+SQL-Based Analysis
 
 ↓
 
@@ -109,7 +105,7 @@ Dashboard Development
 
 ↓
 
-Quality Assurance Testing
+Data Visualization
 
 ↓
 
@@ -118,11 +114,14 @@ Business Insights
 
 ### Highlights
 
-- Cleaned and prepared HR employee data.
-- Developed SQL queries using joins, aggregations, and crosstab operations.
-- Created interactive dashboards in both Power BI and Tableau.
-- Performed SQL validation testing against dashboard outputs.
-- Achieved a 100% validation match between SQL queries and dashboard metrics.
+* Worked with HR employee data and explored workforce and attrition-related metrics.
+* Used Microsoft Excel for data analysis and dashboard development.
+* Built an interactive Power BI HR Analytics report.
+* Built an interactive Tableau HR Analytics dashboard.
+* Studied SQL queries for calculating key HR metrics and analyzing employee attrition.
+* Explored the use of SQL results to support and validate dashboard metrics.
+
+> **Note:** The SQL queries and SQL-based dashboard testing documents included in this project were obtained from the tutorial resources used during the learning process. They are included for learning and reference purposes and are not presented as entirely original SQL work.
 
 ---
 
@@ -130,22 +129,22 @@ Business Insights
 
 **Tool Used**
 
-- IBM SPSS Statistics
+* IBM SPSS Statistics
 
 ### Project Summary
 
-This research project investigates how different instructional delivery methods influence multiple learning outcomes using Multivariate Analysis of Variance (MANOVA).
+This research project investigates how different instructional delivery methods influence multiple learning outcomes using **Multivariate Analysis of Variance (MANOVA)**.
 
 ### Analysis Highlights
 
-- Overall multivariate effect was statistically significant.
-- Live instructor-led training produced significantly higher technical expertise scores.
-- Significant differences were also observed in design modelling performance.
-- Effect sizes indicated meaningful practical differences across training methods.
+* Examined the overall multivariate effect of different training methods.
+* Analyzed differences in technical expertise outcomes.
+* Examined differences in design modelling performance.
+* Interpreted statistical significance and effect sizes across training groups.
 
 ### Business Interpretation
 
-The findings suggest that instructor-led training delivers stronger learning outcomes than recorded sessions, supporting investment in live training programs.
+The findings suggest that instructor-led training can produce stronger learning outcomes than recorded training sessions, highlighting the potential value of live instruction in training and development programs.
 
 ---
 
@@ -153,23 +152,24 @@ The findings suggest that instructor-led training delivers stronger learning out
 
 **Tools Used**
 
-- IBM SPSS Statistics
-- Microsoft Excel
+* IBM SPSS Statistics
+* Microsoft Excel
 
 ### Project Summary
 
-This project applies Principal Component Analysis (PCA) to customer satisfaction survey data to identify the underlying dimensions influencing customer experience.
+This project applies **Principal Component Analysis (PCA)** to customer satisfaction survey data to identify underlying dimensions influencing customer experience.
 
 ### Analysis Highlights
 
-- Confirmed sampling adequacy using the KMO Measure.
-- Verified factorability using Bartlett's Test of Sphericity.
-- Reduced sixteen survey variables into four principal components.
-- Explained over half of the total variance through four interpretable dimensions.
+* Assessed sampling adequacy using the KMO Measure.
+* Tested factorability using Bartlett's Test of Sphericity.
+* Reduced sixteen survey variables into four principal components.
+* Interpreted the extracted components based on their underlying survey dimensions.
+* Examined the proportion of total variance explained by the extracted components.
 
 ### Business Interpretation
 
-The extracted components simplify customer satisfaction analysis and provide organizations with clear focus areas for service improvement.
+The extracted components provide a simplified framework for understanding customer satisfaction and can help organizations identify broader areas for service improvement and customer experience management.
 
 ---
 
@@ -177,32 +177,34 @@ The extracted components simplify customer satisfaction analysis and provide org
 
 **Tool Used**
 
-- Google Looker Studio
+* Google Looker Studio
 
 ### Project Summary
 
 This project presents an executive-level business intelligence dashboard built using the Superstore E-Commerce dataset.
 
+The dashboard focuses on presenting sales and profitability information through interactive visualizations and performance indicators.
+
 ### Dashboard Features
 
-- Sales Performance
-- Profit Analysis
-- Regional Performance
-- Product Category Analysis
-- Interactive Filters
-- KPI Tracking
+* Sales Performance
+* Profit Analysis
+* Regional Performance
+* Product Category Analysis
+* Interactive Filters
+* KPI Tracking
 
 ### Business Value
 
-The dashboard enables decision-makers to monitor organizational performance through an interactive and user-friendly reporting environment.
+The dashboard provides an interactive reporting environment that can help decision-makers monitor sales performance, profitability, regional trends, and product category performance.
 
 ---
 
 # 📈 Analytics Workflow Demonstrated
 
-Across these projects, the following analytics workflow has been applied:
+Across these projects, I have explored and applied different stages of the analytics workflow:
 
-```
+```text
 Business Problem
 
 ↓
@@ -211,7 +213,7 @@ Data Collection
 
 ↓
 
-Data Cleaning
+Data Preparation
 
 ↓
 
@@ -227,7 +229,7 @@ Dashboard Development
 
 ↓
 
-Validation & Testing
+Data Visualization
 
 ↓
 
@@ -242,16 +244,17 @@ Recommendations
 
 # 💼 Core Competencies Demonstrated
 
-- Data Cleaning
-- Data Transformation
-- SQL Query Development
-- Statistical Analysis
-- Business Intelligence
-- Dashboard Design
-- Data Visualization
-- Quality Assurance Testing
-- Business Reporting
-- Executive Decision Support
+* Data Cleaning & Preparation
+* Data Transformation
+* SQL Querying
+* Statistical Analysis
+* Business Intelligence
+* Dashboard Design
+* Data Visualization
+* Exploratory Data Analysis
+* Business Reporting
+* Data Interpretation
+* Analytical Problem Solving
 
 ---
 
@@ -259,7 +262,7 @@ Recommendations
 
 Thank you for visiting my portfolio.
 
-I welcome opportunities to discuss data analytics, business intelligence, applied research, and data-driven decision making.
+I welcome opportunities to discuss **data analytics, business intelligence, applied research, and data-driven decision making**.
 
-GitHub Profile:
+**GitHub Profile:**
 https://github.com/Rameez-Nazar-developer
