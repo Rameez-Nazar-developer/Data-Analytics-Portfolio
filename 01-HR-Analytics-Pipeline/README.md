@@ -2,15 +2,15 @@
 
 A hands-on HR analytics and business intelligence project exploring employee demographics, workforce characteristics, job satisfaction, and employee attrition using multiple data analytics and visualization tools.
 
-This project demonstrates a multi-tool analytics workflow covering data preparation, exploratory analysis, SQL-based analysis, dashboard development, visualization, and quality assurance validation.
+This project demonstrates a multi-tool analytics workflow covering data preparation, exploratory analysis, SQL-based analysis, dashboard development, data visualization, quality assurance, and professional reporting.
 
 ---
 
 ## 📌 Project Overview
 
-The project uses an HR employee dataset containing information about employee demographics, education, department, job role, business travel, job satisfaction, and attrition status.
+The project uses an HR employee dataset containing information about employee demographics, education, department, job role, business travel, job satisfaction, and employee attrition.
 
-The analysis focuses on understanding workforce composition and identifying patterns associated with employee attrition.
+The analysis focuses on understanding workforce composition and identifying patterns associated with employee attrition and retention.
 
 The project was developed as a hands-on learning project using a structured tutorial workflow, with additional practice in organizing, documenting, validating, and presenting the work as an end-to-end analytics portfolio project.
 
@@ -27,7 +27,7 @@ The main objectives of this project were to:
 * Develop business intelligence dashboards using multiple visualization tools.
 * Use SQL queries to calculate and validate key workforce metrics.
 * Compare dashboard results against analytical outputs for quality assurance.
-* Practice organizing an analytics project using a structured GitHub repository.
+* Document the complete analytics workflow in a structured GitHub repository.
 
 ---
 
@@ -94,7 +94,9 @@ Tableau Dashboard
     ↓
 SQL-Based Validation & QA Testing
     ↓
-Business Insights
+Business Insights & Recommendations
+    ↓
+Professional Project Reporting
 ```
 
 ---
@@ -117,6 +119,12 @@ The Excel workflow focused on exploring key workforce and attrition metrics, inc
 * Attrition across Age Groups and Gender
 
 The Excel dashboard provided an initial visual overview of the HR dataset and served as part of the foundation for the subsequent Power BI and Tableau reporting workflows.
+
+**Related project resources:**
+
+* [View Excel Dashboard File](./Dashboards/HR%20DATA_Excel.xlsx)
+* [View Excel Dashboard Screenshot](./Dashboards/Screenshots/excel%20dashboard%20.png)
+* [View HR Data Files](./Data/)
 
 ---
 
@@ -142,6 +150,11 @@ A PostgreSQL `crosstab()` operation was also used to create a job satisfaction m
 
 The SQL query documentation included in this repository reflects the SQL workflow practiced during the project.
 
+**Related project resources:**
+
+* [View SQL Analysis Documentation](./SQL/HR_Analytics_SQL_Queries_Documentation.docx)
+* [View HR Data Files](./Data/)
+
 ---
 
 # 📈 3. Power BI Dashboard
@@ -164,6 +177,11 @@ The dashboard presents key workforce indicators and visualizations covering:
 
 The dashboard provides an interactive reporting environment for exploring workforce composition and employee attrition patterns.
 
+**Related project resources:**
+
+* [View Power BI Dashboard File](./Dashboards/new%20project%20hr%20analytics.pbix)
+* [View Power BI Dashboard Screenshot](./Dashboards/Screenshots/powerbi_hr_analytics_dashboard.png)
+
 ---
 
 # 📊 4. Tableau Dashboard
@@ -183,6 +201,11 @@ The Tableau dashboard presents a visual analysis of:
 An education filter was also incorporated into the dashboard to support interactive exploration of the workforce data.
 
 The Tableau packaged workbook is included in the repository together with a dashboard preview image.
+
+**Related project resources:**
+
+* [View Tableau Dashboard File](./Dashboards/HR_Analytics_Tableau_Dashboard.twbx)
+* [View Tableau Dashboard Screenshot](./Dashboards/Screenshots/tableau_hr_analytics_dashboard.png)
 
 ---
 
@@ -214,7 +237,11 @@ The documented QA test results recorded:
 * **Blocked:** 0
 * **Not Executed:** 0
 
-The QA documentation is included in the `QA-Testing` folder.
+**Related project resources:**
+
+* [View Power BI QA Testing Documentation](./QA-Testing/PowerBI_HR_Analytics_QA_Testing.docx)
+* [View Tableau QA Testing Documentation](./QA-Testing/Tableau_HR_Analytics_QA_Testing.docx)
+* [View QA Testing Folder](./QA-Testing/)
 
 ---
 
@@ -248,17 +275,29 @@ Attrition varied considerably across job roles. Some operational and sales-orien
 
 ### Job Satisfaction
 
-The analysis also explored the relationship between job satisfaction levels and workforce outcomes by examining satisfaction across different job roles.
+The analysis also explored job satisfaction levels across different job roles and workforce segments.
 
-The results provide an opportunity to investigate whether employee engagement and job satisfaction may be associated with retention patterns.
+These findings provide an opportunity to investigate whether employee engagement and job satisfaction may be associated with retention patterns.
 
 > These observations are descriptive findings from the dataset and should not be interpreted as proof of causal relationships.
 
 ---
 
-# 📁 Repository Contents
+# 📄 6. Project Documentation & Reports
 
-The project is organized into the following folders:
+A formal project report was prepared to document the overall HR Analytics Pipeline, including the project objectives, methodology, analytical workflow, tools used, findings, insights, and recommendations.
+
+Both editable and PDF versions of the report are available.
+
+**Related project resources:**
+
+* [View Project Documentation Folder](./Documentation/)
+* [View Project Report — DOCX](./Documentation/HR_Analytics_Pipeline_Project_Report.docx)
+* [View Project Report — PDF](./Documentation/HR_Analytics_Pipeline_Project_Report.pdf)
+
+---
+
+# 📁 7. Project Repository Structure
 
 ```text
 01-HR-Analytics-Pipeline/
@@ -285,6 +324,10 @@ The project is organized into the following folders:
 │   ├── PowerBI_HR_Analytics_QA_Testing.docx
 │   └── Tableau_HR_Analytics_QA_Testing.docx
 │
+├── Documentation/
+│   ├── HR_Analytics_Pipeline_Project_Report.docx
+│   └── HR_Analytics_Pipeline_Project_Report.pdf
+│
 └── README.md
 ```
 
@@ -305,6 +348,7 @@ The project is presented as a learning and portfolio project to demonstrate prac
 * Data visualization
 * Dashboard validation
 * Quality assurance testing
+* Professional project documentation
 * GitHub project organization
 
 The purpose of including the project is to demonstrate the practical workflow and tools explored during the learning process while maintaining transparency about the use of tutorial resources.
@@ -315,7 +359,17 @@ The purpose of including the project is to demonstrate the practical workflow an
 
 **Status:** Completed — Portfolio Version
 
-The project has been organized into a structured GitHub repository containing the source datasets, dashboard files, SQL documentation, QA testing documents, and dashboard preview images.
+The project has been organized into a structured GitHub repository containing:
+
+* Source datasets
+* Excel analysis and dashboard
+* SQL analysis documentation
+* Power BI dashboard
+* Tableau dashboard
+* Dashboard screenshots
+* QA testing documentation
+* Formal project report in DOCX format
+* Formal project report in PDF format
 
 ---
 
